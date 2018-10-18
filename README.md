@@ -31,13 +31,13 @@ The following functionalities do not appear in the project:
 
 - implement a social bar to share each track on a social network. 
 
-## What this app currently do:
+## What this app currently does:
 
 - Search for tracks by keywords
 - Select and listen to a track. 
 - Switch to previous or next track from the search list.
 
-## This project also includes:
+## This project includes:
 
 	- A typical React project layout structure
 	- Babel setup and configuration
