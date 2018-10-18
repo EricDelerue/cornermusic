@@ -10,7 +10,7 @@ It allows the users to select and listen to a track.
 
 ## Demo
   
-  Follow the link to the [DEMO here.](https://www.itineranda.com/cornermusic/)
+  Follow this link to see a [DEMO](https://www.itineranda.com/cornermusic/) of this app.
 
 ## iTunes API issues
 
