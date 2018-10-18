@@ -1,0 +1,28 @@
+.header {
+    background-color: $primary-color;
+    color: #fff;
+    line-height: 60px;
+    height: 60px;
+    width: 100%;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000;
+    
+		.brand {
+			  font-family: $special-font-family;
+		    font-size: 26px;
+		    font-weight: bold;
+		    vertical-align: middle;
+		}    
+}
+
+.header.trackslist {
+	  background-color: $primary-color;
+}
+	
+.header.player {
+	  background-color: $secondary-color;
+}

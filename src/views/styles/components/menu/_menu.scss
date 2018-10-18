@@ -1,0 +1,31 @@
+nav.menu ul.navigation {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	}
+
+nav.menu ul.navigation > li {
+	    display: inline-block;
+	    width: auto;
+	}
+
+nav.menu ul.navigation > li > a {
+	    display: block;
+	    color: $primary-color;
+	    text-align: center;
+	    padding: 12px 14px;
+	    text-decoration: none;
+	}
+
+nav.menu ul.navigation > li > a:hover {
+	    font-weight: bolder;
+	    color: $secondary-color;
+	}
+
+nav.menu.selected {
+	    color: $secondary-color;
+	    font-weight: bolder;
+	    border-bottom: 2px solid $secondary-color;
+	    text-decoration: none;
+  }

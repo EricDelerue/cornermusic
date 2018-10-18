@@ -1,0 +1,13 @@
+.btn-outline-info.focus, 
+.btn-outline-info:focus {
+    box-shadow: 0px 0px 0px 0.2rem rgba(23,162,184,0.5);
+}
+.btn-outline-info {
+	color: $primary-color;
+	border-color: $primary-color;
+}
+.btn-outline-info:hover {
+	color: white;
+	border-color: $primary-color;
+	background-color: $primary-color;
+}

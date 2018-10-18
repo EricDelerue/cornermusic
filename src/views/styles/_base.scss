@@ -1,0 +1,40 @@
+html, body, div, p {
+    font-family: $font-family;
+}
+
+a, a:link
+{
+    color: $link-color
+}
+
+a:hover, a:visited, a:active
+{
+    text-decoration: none;
+    color: $link-hover-color
+}
+
+.subheader {
+	margin-top: 4.5rem !important;
+}
+
+.button-icon {
+    cursor: pointer;
+    color: $secondary-color
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
