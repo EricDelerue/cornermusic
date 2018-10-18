@@ -31,8 +31,6 @@ The following functionalities do not appear in the project:
 
 - implement a social bar to share each track on a social network. 
 
-- setup and configure Eslint.
-
 ## What this app currently do:
 
 - Search for tracks by keywords
