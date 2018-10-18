@@ -10,7 +10,7 @@ It allows the users to select and listen to a track.
 
 ## Demo
 
-	https://www.itineranda.com/cornermusic/
+	[www.itineranda.com/cornermusic/](https://www.itineranda.com/cornermusic/)
 
 ## iTunes API issues
 
