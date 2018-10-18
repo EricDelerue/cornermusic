@@ -9,8 +9,8 @@ The application gets tracks data from a third party API (iTunes). Fetching data 
 It allows the users to select and listen to a track.
 
 ## Demo
-
-	[www.itineranda.com/cornermusic/](https://www.itineranda.com/cornermusic/)
+  
+  Follow the link to the [DEMO here.](https://www.itineranda.com/cornermusic/)
 
 ## iTunes API issues
 
