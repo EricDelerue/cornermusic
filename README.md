@@ -2,7 +2,7 @@
 
 *October 2018*
 
-As was required in the Test Frontend file, Corner Music is a Single Page Application (SPA) built using libraries like React, React Router for pages and navigation, and Redux for application state. 
+As required in the Test Frontend file, Corner Music is a Single Page Application (SPA) built using libraries like React, React Router for pages and navigation, and Redux for application state. 
 
 The application gets tracks data from a third party API (iTunes). Fetching data is managed through fetch API. 
 
@@ -11,6 +11,10 @@ It allows the users to select and listen to a track.
 ## Demo
 
 	https://www.itineranda.com/cornermusic/
+
+## iTunes API issues
+
+Sometimes, the iTunes API rejects single words without uppercase letters, such as sting or gaga (CORS issue). Try with Sting or Lady Gaga. It is advisable to insist and insert several words for the search.
 
 ## Author: 
 
@@ -28,10 +32,6 @@ The following functionalities do not appear in the project:
 - implement a social bar to share each track on a social network. 
 
 - setup and configure Eslint.
-
-## iTunes API issues
-
-Sometimes, the iTunes API rejects single words without uppercase letters, such as sting or gaga (CORS issue). Try with Sting or Lady Gaga. It is advisable to insist and insert several words for the search.
 
 ## What this app currently do:
 
@@ -76,7 +76,7 @@ Show a player (backward, play/pause, forward) and a picture and info associated 
 
 Put the files in a directory (i.e.: /cornermusic/)
 
-Edit the src/services/fetchTracksApi.js file and modify the request headers if necessary (localhost or other).
+Edit the src/services/fetchTracksApi.js file and modify the request headers if necessary.
 
 Open the command line and type: 
 
