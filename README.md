@@ -41,25 +41,25 @@ The following functionalities do not appear in the project:
 
 ## This project also includes:
 
--A typical React project layout structure
--Babel setup and configuration
--Webpack setup and configuration 
--dotenv setup included
--SCSS setup and configuration
--Redux to manage application state
--React Router to setup navigation
+	- A typical React project layout structure
+	- Babel setup and configuration
+	- Webpack setup and configuration 
+	- dotenv setup included
+	- SCSS setup and configuration
+	- Redux to manage application state
+	- React Router to setup navigation
 
 ## Primary Components
 
 The root application component (App), is composed of 3 primary components:
 
-Header 
+	 - Header 
 A heading that displays application title "Corner Music"
 
-Tracks Search Page 
+	- Tracks Search Page 
 The "landing page" that the application opens on. It is used to search for tracks by querying the iTunes API.
 
-Track Player Page 
+	- Track Player Page 
 Show a player (backward, play/pause, forward) and a picture and info associated with the track. 
 
 ## Made on/with:
