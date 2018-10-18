@@ -1,6 +1,9 @@
-# Project Overview
+
+# Corner Job tech test
 
 *October 2018*
+
+## Project Overview
 
 As required in the Test Frontend file, Corner Music is a Single Page Application (SPA) built using libraries like React, React Router for pages and navigation, and Redux for application state. 
 
