@@ -1,4 +1,4 @@
-#Project Overview
+# Project Overview
 
 *October 2018*
 
@@ -8,12 +8,16 @@ The application gets tracks data from a third party API (iTunes). Fetching data 
 
 It allows the users to select and listen to a track.
 
-##Author: 
+## Demo
+
+	https://www.itineranda.com/cornermusic/
+
+## Author: 
 
 Eric Delerue
 delerue_eric@hotmail.com
 
-##Note: 
+## Note: 
 
 The author was not in the right conditions to complete the test, but hopes to have achieved the necessary and sufficient features to allow Corner Job's technicians to evaluate his skills and potential.
 
@@ -25,13 +29,17 @@ The following functionalities do not appear in the project:
 
 - setup and configure Eslint.
 
-##What this app currently do:
+## iTunes API issues
+
+Sometimes, the iTunes API rejects single words without uppercase letters, such as sting or gaga (CORS issue). Try with Sting or Lady Gaga. It is advisable to insist and insert several words for the search.
+
+## What this app currently do:
 
 - Search for tracks by keywords
 - Select and listen to a track. 
 - Switch to previous or next track from the search list.
 
-##This project also includes:
+## This project also includes:
 
 -A typical React project layout structure
 -Babel setup and configuration
@@ -41,7 +49,7 @@ The following functionalities do not appear in the project:
 -Redux to manage application state
 -React Router to setup navigation
 
-##Primary Components
+## Primary Components
 
 The root application component (App), is composed of 3 primary components:
 
@@ -64,7 +72,7 @@ Show a player (backward, play/pause, forward) and a picture and info associated 
   - Redux 4
   - Webpack 4
 
-##Installation:
+## Installation:
 
 Put the files in a directory (i.e.: /cornermusic/)
 
