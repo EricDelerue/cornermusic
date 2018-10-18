@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Album = ({ value }) => (
   <div className="inline">
-    Album: <h3 className="title">{value}</h3>
+    <h4 className="album"><span className="label">Album: </span>{value}</h4>
   </div>
 );
 

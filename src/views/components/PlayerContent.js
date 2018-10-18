@@ -30,11 +30,11 @@ export const PlayerContent = ({ current, previous, next }) => (
       </div>
       <div className="panel panel--sm">
 	      
-	      <div className="content__header">
+	      <div className="track_details">
 	      
 	        <Title title={current.title ? current.title : 'Untitled'} />
-	        <Album value={current.album ? current.album : 'Untitled'} />
-	        <Artist value={current.artist} />
+	        <Artist value={current.artist ? current.artist : 'Unknown'} />
+	        <Album value={current.album ? current.album : 'Untitled'} />	        
 	       {/*                
 	        <Info value={current} />   
 	        */ }   

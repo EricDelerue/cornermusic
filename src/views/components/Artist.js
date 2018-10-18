@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Artist = ({ value }) => (
   <div className="inline">
-    By: <h3 className="title">{value}</h3>
+    <h3 className="artist"><span className="label">Artist: </span>{value}</h3>
   </div>
 );
 

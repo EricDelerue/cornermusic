@@ -3,39 +3,104 @@ aside {
 	position: relative;
 	margin: 0px;
 	padding:0px;
+	
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	nav.menu {
+
+		ul.player {
+			
+			position: absolute;
+			bottom: 40px;
+		  left: 350px;
+		  
+		  height: 70px;
+		  width: 280px;	
+			border: 0px;
+			list-style: none;
+			list-style-type: none;
+			
+			margin: 0px;
+			padding: 0px;
+			
+			border-radius: 50px;
+			background-color: #fff;
+				
+			li {
+			  display: inline-block;
+			  height: 60px;
+			  width: auto;
+			  padding: 5px;	
+		  }
+			
+		}
+		
+		
+	}
+
 }
 
-nav.menu {
-
-	ul.player {
+.track_details {
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	
+	.inline {
+		display: flex;
+		margin: 20px auto 10px auto;
 		
-		position: absolute;
-		bottom: 40px;
-	  left: 350px;
-	  
-	  height: 70px;
-	  width: 280px;	
-		border: 0px;
-		list-style: none;
-		list-style-type: none;
-		
-		margin: 0px;
-		padding: 0px;
-		
-		border-radius: 50px;
-		background-color: #fff;
-			
-		li {
-		  display: inline-block;
-		  height: 60px;
-		  width: auto;
-		  padding: 5px;	
+		.label  {
+	    font-family: Montserrat,sans-serif;
+	    text-align: left;
+	    padding: 0 0 0 5px;
+	    letter-spacing: 0px;
+	    color: #000;
+	    font-weight: normal;
 	  }
+	  		
+		h2.title {
+	    font-family: Montserrat,sans-serif;
+	    text-align: left;
+	    padding: 0 0 0 5px;
+	    letter-spacing: 0px;
+	    color: $secondary-color;
+	    font-weight: bold;
+	    font-size: 24px;
+		}
+
+		h3.artist {
+	    font-family: Montserrat,sans-serif;
+	    text-align: left;
+	    padding: 0 0 0 5px;
+	    letter-spacing: 0px;
+	    color: $secondary-color;
+	    font-weight: bold;
+	    font-size: 18px;
+		}		
 		
+		h4.album {
+	    font-family: Montserrat,sans-serif;
+	    text-align: left;
+	    padding: 0 0 0 5px;
+	    letter-spacing: 0px;
+	    color: $secondary-color;
+	    font-weight: bold;
+	    font-size: 16px;
+		}		
+				
+		.info {
+      padding-bottom: 3px;
+    }
+				
 	}
 	
 	
 }
+
 
 .button--play,
 .button--backward,
