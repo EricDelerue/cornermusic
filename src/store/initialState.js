@@ -1,8 +1,8 @@
 export default {
   pending: false,
   fetched: false,
-  failed: false,  
+  failed: false,
   tracks: [],
   currentTrack: {},
   error: {}
-}
+};

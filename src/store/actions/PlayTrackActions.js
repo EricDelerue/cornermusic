@@ -1,12 +1,10 @@
-
 // ACTION CONSTANTS
 
-import * as types from './actionTypes';  
+import * as types from "./actionTypes";
 
-
-export function playTrack(track) { 
+export function playTrack(track) {
   return {
-  	type: 'SELECT_TRACK', 
-  	track: track
+    type: "SELECT_TRACK",
+    track: track
   };
 }

@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 export const Title = ({ title }) => (
   <div className="inline">
@@ -11,4 +11,3 @@ export const Title = ({ title }) => (
 Title.propTypes = {
   title: PropTypes.string.isRequired
 };
-

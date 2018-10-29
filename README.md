@@ -24,21 +24,21 @@ Sometimes, the iTunes API rejects single words without uppercase letters, such a
 Eric Delerue
 delerue_eric@hotmail.com
 
+## What this app currently does:
+
+- Search for tracks by keywords
+- Select and listen to a track. 
+- Switch to previous or next track from the search list.
+
 ## Note: 
 
-The author was not in the right conditions to complete the test, but hopes to have achieved the necessary and sufficient features to allow Corner Job's technicians to evaluate his skills and potential.
+The author did not complete the test, but hopes to have achieved the necessary and sufficient features to allow technicians to evaluate his skills and potential.
 
 The following functionalities do not appear in the project:
 
 - implement a search filter to sort the list over the song length, the genre and the price. 
 
 - implement a social bar to share each track on a social network. 
-
-## What this app currently does:
-
-- Search for tracks by keywords
-- Select and listen to a track. 
-- Switch to previous or next track from the search list.
 
 ## This project includes:
 
