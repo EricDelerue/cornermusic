@@ -1,11 +1,11 @@
 
-# Corner Job tech test
+# Simple Search & Play iTunes application
 
 *October 2018*
 
 ## Project Overview
 
-As required in the Test Frontend file, Corner Music is a Single Page Application (SPA) built using libraries like React, React Router for pages and navigation, and Redux for application state. 
+Corner Music is a Single Page Application (SPA) built using libraries like React, React Router for pages and navigation, and Redux for application state. 
 
 The application gets tracks data from a third party API (iTunes). Fetching data is managed through fetch API. 
 
@@ -32,9 +32,7 @@ delerue_eric@hotmail.com
 
 ## Note: 
 
-The author did not complete the test, but hopes to have achieved the necessary and sufficient features to allow technicians to evaluate his skills and potential.
-
-The following functionalities do not appear in the project:
+The following functionalities do not appear in the project but they will be implemented soon:
 
 - implement a search filter to sort the list over the song length, the genre and the price. 
 
